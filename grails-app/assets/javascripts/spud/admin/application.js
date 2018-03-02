@@ -67,7 +67,8 @@ $(document).ready(function() {
       $('a.button').button();
 
 
-      $('input[type=submit].btn').click(function() {$(this).button('loading');});
+    // DISABLED THIS BECAUSE IT SHOULD NOT BE APPLIED IF VALIDATION FAILS
+    // $('input[type=submit].btn').click(function() {$(this).button('loading');});
 
     $('#multisite_switcher select').change(function() {
       $(this).parent().submit();
